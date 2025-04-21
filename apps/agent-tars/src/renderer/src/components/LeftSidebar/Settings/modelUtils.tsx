@@ -39,12 +39,12 @@ export function getModelOptions(provider: ModelProvider) {
       return [
         { value: 'gpt-4o', label: 'GPT-4o' },
         { value: 'gpt-4o-mini', label: 'GPT-4o Mini' },
+        { value: 'gpt-4.1', label: 'GPT-4.1' },
       ];
     case ModelProvider.GEMINI:
       return [
-        { value: 'gemini-2.0-flash', label: 'Gemini 2.0 Flash' },
-        { value: 'gemini-1.5-pro', label: 'Gemini 1.5 Pro' },
-        { value: 'gemini-1.5-flash', label: 'Gemini 1.5 Flash' },
+        { value: 'gemini-2.5-pro-preview-03-25', label: 'Gemini 2.5 Pro' },
+        { value: 'gemini-2.5-flash-preview-04-17', label: 'Gemini 2.5 Flash' },
       ];
     case ModelProvider.MISTRAL:
       return [

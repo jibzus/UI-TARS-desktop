@@ -37,7 +37,7 @@ export class GeminiProvider extends BaseProvider {
 
     // Set default model or use provided one
     this.model =
-      config.model || process.env.GEMINI_DEFAULT_MODEL || 'gemini-1.5-pro';
+      config.model || process.env.GEMINI_DEFAULT_MODEL || 'gemini-2.5-pro-preview-03-25';
 
     logger.info(
       '[GeminiProvider]',
